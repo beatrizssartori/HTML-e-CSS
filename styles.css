@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(34,34,34);
+  color: white;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+  flex-direction: column;
+  line-height: 10px;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+a {
+  color: rgb(241, 241, 7);
+}
+
+a:hover {
+  color: white;
+  transition: 0.3s all;
+}
+
+h1 {
+  font-weight: 200px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 56px;
+  line-height: 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+span {
+  color: rgb(241, 241, 7);
+}
+
+p {
+  line-height: 20px;
+  max-width: 500px;
+  text-align:justify;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+  width: 400px;
+  margin-left: 150px;
+}
+
+form {
+  display:flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+form [type="submit"] {
+  height: 50px;
+  width: 50%;
+  background-color: rgb(241, 241, 7);
+  color: rgb(34,34,34); 
+  font-weight: bold;
+}
+
+form [type="submit"]:hover {
+  cursor: pointer;
+}
+
+input {
+  margin-top: 20px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  border:none;
+  font-size: 15px;
+}
+
+.youtube {
+  position: relative;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 56.25%;
+}
+
+.youtube iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border:none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding-top:20px;
+}
